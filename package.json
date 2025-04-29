@@ -9,6 +9,7 @@
     "node": ">=18.x"
   },
   "scripts": {
+    "build": "",
     "start": "concurrently \"node app.js\" \"node bot.js\"",
     "register": "node commands.js",
     "dev": "nodemon app.js"
